@@ -42,7 +42,8 @@ header h1 {
   margin-left: 10px;
 }
 header h1:before {
-  content: url(assets/branding/css-zen-garden-logo.svg);
+  content: url(assets/branding/modernLogoSmall3.jpg);
+  float: right;
 }
 header h2 {
   font-family: "Myriad Pro", sans-serif;
@@ -226,7 +227,7 @@ footer a {
   }
 
   header h1:before {
-    content: url(assets/branding/css-zen-garden-logo.svg);
+    content: url(assets/branding/modernLogoMed3.jpg);
     padding-bottom: 1em;
   }
 
