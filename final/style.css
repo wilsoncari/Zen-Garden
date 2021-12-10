@@ -38,7 +38,7 @@ header h1 {
   margin-left: 10px;
 }
 header h1:before {
-  content: url(assets/branding/modernLogoSmall3.jpg);
+  content: url(assets/branding/css-zen-garden-logo.svg);
   float: right;
 }
 header h2 {
