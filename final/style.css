@@ -42,9 +42,8 @@ header h1 {
   margin-left: 10px;
 }
 header h1:before {
-  content: url(assets/branding/modernLogoMed3);
+  content: url(assets/branding/css-zen-garden-logo.jpg);
   float: right;
-  padding-bottom: 10px;
 }
 header h2 {
   font-family: "Myriad Pro", sans-serif;
@@ -228,7 +227,7 @@ footer a {
   }
 
   header h1:before {
-    content: url(assets/branding/modernLogoMed3.jpg);
+    content: url(assets/branding/css-zen-garden-logo.jpg);
     padding-bottom: 1em;
   }
 
@@ -300,10 +299,6 @@ footer a {
 
   .requirements {
     background-color: #682b57;
-  }
-
-  .extra1, .participation:after {
-    display: none;
   }
 
   .design-selection li, .design-archives li, .zen-resources li {
