@@ -14,10 +14,15 @@ p {
 
 a {
   color: #ffffff;
+  transition: all 0.2s;
 }
 
 a:hover {
-  color: #e6e6e6;
+  background-color: #ffffff;
+  border-radius: 1px;
+  color: #682b57;
+  font-weight: bold;
+  font-size: 1em;
 }
 
 a:visited {
@@ -37,7 +42,7 @@ header h1 {
   margin-left: 10px;
 }
 header h1:before {
-  content: url(assets/branding/css-zen-garden-logo.svg);
+  content: url(assets/branding/modernLogoSmall3.jpg);
   float: right;
 }
 header h2 {
