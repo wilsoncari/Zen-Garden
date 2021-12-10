@@ -43,7 +43,6 @@ header h1 {
 }
 header h1:before {
   content: url(assets/branding/css-zen-garden-logo.jpg);
-  width: 10%;
   float: right;
 }
 header h2 {
@@ -229,7 +228,6 @@ footer a {
 
   header h1:before {
     content: url(assets/branding/css-zen-garden-logo.jpg);
-    width: 10%;
     padding-bottom: 1em;
   }
 
