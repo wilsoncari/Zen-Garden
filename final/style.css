@@ -228,7 +228,7 @@ footer a {
   }
 
   header h1:before {
-    content: url(assets/plum-branch.jpg);
+    content: url(assets/branding/modernLogoMed3.jpg);
     padding-bottom: 1em;
   }
 
@@ -249,7 +249,7 @@ footer a {
   }
 
   .participation:after {
-    content: url(assests/plum-branch.jpg);
+    content: url(assets/plum-branch.jpg);
   }
 
   footer {
