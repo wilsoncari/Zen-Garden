@@ -43,7 +43,6 @@ header h1 {
 }
 header h1:before {
   content: url(assets/branding/css-zen-garden-logo.svg);
-  float: right;
 }
 header h2 {
   font-family: "Myriad Pro", sans-serif;
