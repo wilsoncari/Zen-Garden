@@ -95,7 +95,7 @@ header h2 {
 }
 
 .participation:after {
-  content: url(assets/branding/candleSmall.jpg);
+  content: url(assets/plum-branch.jpg);
   text-align: center;
   display: block;
   width: 100%;
@@ -247,11 +247,10 @@ footer a {
     grid-template-rows: 0.5fr 0.8fr 1fr 0.3fr 3%;
   }
 
-  /*
   .participation:after {
-  content: url(https://picsum.photos/400/150?grayscale);
-    }
-    */
+    content: url(assests/plum-branch.jpg);
+  }
+
   footer {
     margin: 0.1em;
     margin-bottom: 9px;
@@ -421,4 +420,4 @@ footer a {
 
 */
 
-/*# sourceMappingURL=stylefinal.css.map */
+/*# sourceMappingURL=style.css.map */
