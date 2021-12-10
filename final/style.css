@@ -43,6 +43,7 @@ header h1 {
 }
 header h1:before {
   content: url(assets/branding/css-zen-garden-logo.jpg);
+  position: absolute;
   float: right;
 }
 header h2 {
@@ -228,6 +229,7 @@ footer a {
 
   header h1:before {
     content: url(assets/branding/css-zen-garden-logo.jpg);
+    position: absolute;
     padding-bottom: 1em;
   }
 
@@ -299,6 +301,10 @@ footer a {
 
   .requirements {
     background-color: #682b57;
+  }
+
+  .extra1, .participation:after {
+    display: none;
   }
 
   .design-selection li, .design-archives li, .zen-resources li {
