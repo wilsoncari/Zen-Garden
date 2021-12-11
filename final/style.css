@@ -206,6 +206,11 @@ footer a {
     grid-column: 1/3;
   }
 
+  header h1:before {
+    content: url(assets/branding/modernLogoSmall3.jpg);
+    padding-bottom: 1em;
+  }
+
   .preamble {
     background-color: #82597a;
     grid-column: 1/2;
