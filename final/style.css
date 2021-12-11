@@ -18,11 +18,12 @@ a {
 }
 
 a:hover {
+  background-size: 4px 50px;
   background-color: #ffffff;
-  border-radius: 1px;
+  border-radius: 2px;
   color: #682b57;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 a:visited {
@@ -42,7 +43,7 @@ header h1 {
   margin-left: 10px;
 }
 header h1:before {
-  content: url(assets/branding/modernLogoMed3);
+  content: url(assets/branding/modernLogoSmall3.jpg);
   float: right;
 }
 header h2 {
@@ -94,11 +95,10 @@ header h2 {
 }
 
 .participation:after {
-  content: url(assets/plum-branch.jpg);
+  content: url(assets/branding/candleSmall.jpg);
   text-align: center;
   display: block;
   width: 100%;
-  padding: 10px;
 }
 
 .requirements {
@@ -206,11 +206,6 @@ footer a {
     grid-column: 1/3;
   }
 
-  header h1:before {
-    content: url(assets/branding/modernLogoSmall3.jpg);
-    padding-bottom: 1em;
-  }
-
   .preamble {
     background-color: #82597a;
     grid-column: 1/2;
@@ -252,10 +247,11 @@ footer a {
     grid-template-rows: 0.5fr 0.8fr 1fr 0.3fr 3%;
   }
 
+  /*
   .participation:after {
-    content: url(assets/plum-branch.jpg);
-  }
-
+  content: url(https://picsum.photos/400/150?grayscale);
+    }
+    */
   footer {
     margin: 0.1em;
     margin-bottom: 9px;
