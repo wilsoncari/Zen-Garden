@@ -95,7 +95,7 @@ header h2 {
 }
 
 .participation:after {
-  content: url(assets/branding/candleSmall.jpg);
+  content: url(assets/plum-branch.jpg);
   text-align: center;
   display: block;
   width: 100%;
@@ -233,6 +233,10 @@ footer a {
 
   h2 {
     text-align: center;
+  }
+
+  .participation:after {
+    content: url(assets/plum-branch.jpg);
   }
 
   .preamble p {
